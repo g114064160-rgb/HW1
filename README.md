@@ -6,6 +6,10 @@
 - 透過互動式介面，讓使用者能夠調整數據生成參數，即時觀察線性回歸模型的建立、訓練和評估過程。
 - 模擬數據科學專案的典型階段：商業理解、資料理解、資料準備、模型建立、模型評估和部署。
 
+## 部署應用程式連結
+本應用程式已部署至 Streamlit Cloud，您可以透過以下連結訪問：
+[Streamlit App Link](https://hbs7fn5b5cernetj3okpvp.streamlit.app/)
+
 ## 功能特色
 - **數據生成**: 使用者可以調整真實斜率、數據點數量和雜訊等級來生成合成數據。
 - **模型訓練與評估**: 使用 `scikit-learn` 訓練線性回歸模型，並顯示模型的斜率、截距、均方誤差 (MSE) 和 R-squared 值。
@@ -47,10 +51,9 @@
     這將在您的預設網頁瀏覽器中打開 Streamlit 應用程式。
 
 ## 部署
-本應用程式已部署至 Streamlit Cloud，您可以透過以下連結訪問：
-[Streamlit App Link](https://hbs7fn5b5cernetj3okpvp.streamlit.app/)
+本應用程式可以輕鬆部署到 Streamlit Cloud 或其他支援 Streamlit 的平台。
 
-您也可以將本應用程式輕鬆部署到其他支援 Streamlit 的平台。
+## 功能特色
 
 ## 檔案結構
 - `app.py`: Streamlit 應用程式的主要程式碼。
