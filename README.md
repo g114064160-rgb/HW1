@@ -8,9 +8,18 @@
 
 ## 功能特色
 - **數據生成**: 使用者可以調整真實斜率、數據點數量和雜訊等級來生成合成數據。
-- **CRISP-DM 流程**: 應用程式結構清晰，對應 CRISP-DM 的六個階段。
 - **模型訓練與評估**: 使用 `scikit-learn` 訓練線性回歸模型，並顯示模型的斜率、截距、均方誤差 (MSE) 和 R-squared 值。
 - **視覺化**: 透過 `matplotlib` 繪製原始數據、真實關係線和模型擬合的迴歸線，直觀展示模型效果。
+
+## CRISP-DM 流程概述
+本專案遵循 CRISP-DM (Cross-Industry Standard Process for Data Mining) 方法論，將簡單線性回歸的分析過程分為以下階段：
+
+1.  **商業理解 (Business Understanding)**: 旨在從數據中找出並量化線性關係，建立預測模型。
+2.  **資料理解 (Data Understanding)**: 根據使用者設定的參數生成合成數據，理解數據特性。
+3.  **資料準備 (Data Preparation)**: 將數據轉換為模型可處理的格式，例如將特徵轉換為二維陣列。
+4.  **模型建立 (Modeling)**: 使用 `scikit-learn` 的 `LinearRegression` 建立並訓練模型。
+5.  **模型評估 (Evaluation)**: 評估模型性能，包括模型參數、均方誤差 (MSE) 和 R-squared 值，並透過視覺化展示結果。
+6.  **部署 (Deployment)**: 本應用程式本身即為部署形式，提供互動式介面供使用者探索模型。
 
 ## 如何運行 (本地)
 
