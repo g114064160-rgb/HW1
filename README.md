@@ -47,7 +47,10 @@
     這將在您的預設網頁瀏覽器中打開 Streamlit 應用程式。
 
 ## 部署
-本應用程式可以輕鬆部署到 Streamlit Cloud 或其他支援 Streamlit 的平台。
+本應用程式已部署至 Streamlit Cloud，您可以透過以下連結訪問：
+[Streamlit App Link](https://hbs7fn5b5cernetj3okpvp.streamlit.app/)
+
+您也可以將本應用程式輕鬆部署到其他支援 Streamlit 的平台。
 
 ## 檔案結構
 - `app.py`: Streamlit 應用程式的主要程式碼。
